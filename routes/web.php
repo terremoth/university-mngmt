@@ -24,3 +24,7 @@ Route::resource('students', 'StudentController');
 Route::resource('teachers', 'TeacherController');
 Route::resource('activities', 'ActivityController');
 Route::resource('class-resources', 'ClassResourcesController');
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');

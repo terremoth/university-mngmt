@@ -16,8 +16,10 @@ class CreateQuestionsTable extends Migration
         Schema::create('questions', function (Blueprint $table) {
             $table->id();
             $table->foreignId('activity_id')->references('id')->on('activities')->onDelete('cascade');
+            $table->foreignId('questions_type_id')->references('id')->on('questions_types')->onDelete('cascade');
             $table->longText('statement');
             $table->integer('order');
+            $table->integer('value')->nullable();
             $table->timestamps();
         });
     }

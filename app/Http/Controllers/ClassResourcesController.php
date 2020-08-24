@@ -2,7 +2,7 @@
 
 namespace App\Http\Controllers;
 
-use App\ClassResources;
+use App\CourseResource;
 use Illuminate\Http\Request;
 
 class ClassResourcesController extends Controller
@@ -41,10 +41,10 @@ class ClassResourcesController extends Controller
     /**
      * Display the specified resource.
      *
-     * @param  \App\ClassResources  $classResources
+     * @param  \App\CourseResource  $classResources
      * @return \Illuminate\Http\Response
      */
-    public function show(ClassResources $classResources)
+    public function show(CourseResource $classResources)
     {
         //
     }
@@ -52,10 +52,10 @@ class ClassResourcesController extends Controller
     /**
      * Show the form for editing the specified resource.
      *
-     * @param  \App\ClassResources  $classResources
+     * @param  \App\CourseResource  $classResources
      * @return \Illuminate\Http\Response
      */
-    public function edit(ClassResources $classResources)
+    public function edit(CourseResource $classResources)
     {
         //
     }
@@ -64,10 +64,10 @@ class ClassResourcesController extends Controller
      * Update the specified resource in storage.
      *
      * @param  \Illuminate\Http\Request  $request
-     * @param  \App\ClassResources  $classResources
+     * @param  \App\CourseResource  $classResources
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, ClassResources $classResources)
+    public function update(Request $request, CourseResource $classResources)
     {
         //
     }
@@ -75,10 +75,10 @@ class ClassResourcesController extends Controller
     /**
      * Remove the specified resource from storage.
      *
-     * @param  \App\ClassResources  $classResources
+     * @param  \App\CourseResource  $classResources
      * @return \Illuminate\Http\Response
      */
-    public function destroy(ClassResources $classResources)
+    public function destroy(CourseResource $classResources)
     {
         //
     }

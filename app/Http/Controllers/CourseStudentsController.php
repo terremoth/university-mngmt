@@ -2,7 +2,7 @@
 
 namespace App\Http\Controllers;
 
-use App\CourseStudents;
+use App\CourseStudent;
 use Illuminate\Http\Request;
 
 class CourseStudentsController extends Controller
@@ -41,10 +41,10 @@ class CourseStudentsController extends Controller
     /**
      * Display the specified resource.
      *
-     * @param  \App\CourseStudents  $courseStudents
+     * @param  \App\CourseStudent  $courseStudents
      * @return \Illuminate\Http\Response
      */
-    public function show(CourseStudents $courseStudents)
+    public function show(CourseStudent $courseStudents)
     {
         //
     }
@@ -52,10 +52,10 @@ class CourseStudentsController extends Controller
     /**
      * Show the form for editing the specified resource.
      *
-     * @param  \App\CourseStudents  $courseStudents
+     * @param  \App\CourseStudent  $courseStudents
      * @return \Illuminate\Http\Response
      */
-    public function edit(CourseStudents $courseStudents)
+    public function edit(CourseStudent $courseStudents)
     {
         //
     }
@@ -64,10 +64,10 @@ class CourseStudentsController extends Controller
      * Update the specified resource in storage.
      *
      * @param  \Illuminate\Http\Request  $request
-     * @param  \App\CourseStudents  $courseStudents
+     * @param  \App\CourseStudent  $courseStudents
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, CourseStudents $courseStudents)
+    public function update(Request $request, CourseStudent $courseStudents)
     {
         //
     }
@@ -75,10 +75,10 @@ class CourseStudentsController extends Controller
     /**
      * Remove the specified resource from storage.
      *
-     * @param  \App\CourseStudents  $courseStudents
+     * @param  \App\CourseStudent  $courseStudents
      * @return \Illuminate\Http\Response
      */
-    public function destroy(CourseStudents $courseStudents)
+    public function destroy(CourseStudent $courseStudents)
     {
         //
     }

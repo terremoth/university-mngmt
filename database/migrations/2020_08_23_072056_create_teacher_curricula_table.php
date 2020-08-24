@@ -15,6 +15,8 @@ class CreateTeacherCurriculaTable extends Migration
     {
         Schema::create('teacher_curricula', function (Blueprint $table) {
             $table->id();
+            $table->foreignId('teacher_id')->references('id')->on('teachers')->onDelete('cascade');
+            $table->string('course_name');
             $table->timestamps();
         });
     }

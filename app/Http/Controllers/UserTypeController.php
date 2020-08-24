@@ -2,10 +2,10 @@
 
 namespace App\Http\Controllers;
 
-use App\StudentsGrade;
+use App\UserType;
 use Illuminate\Http\Request;
 
-class StudentsGradesController extends Controller
+class UserTypeController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -41,10 +41,10 @@ class StudentsGradesController extends Controller
     /**
      * Display the specified resource.
      *
-     * @param  \App\StudentsGrade  $studentsGrades
+     * @param  \App\UserType  $userType
      * @return \Illuminate\Http\Response
      */
-    public function show(StudentsGrade $studentsGrades)
+    public function show(UserType $userType)
     {
         //
     }
@@ -52,10 +52,10 @@ class StudentsGradesController extends Controller
     /**
      * Show the form for editing the specified resource.
      *
-     * @param  \App\StudentsGrade  $studentsGrades
+     * @param  \App\UserType  $userType
      * @return \Illuminate\Http\Response
      */
-    public function edit(StudentsGrade $studentsGrades)
+    public function edit(UserType $userType)
     {
         //
     }
@@ -64,10 +64,10 @@ class StudentsGradesController extends Controller
      * Update the specified resource in storage.
      *
      * @param  \Illuminate\Http\Request  $request
-     * @param  \App\StudentsGrade  $studentsGrades
+     * @param  \App\UserType  $userType
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, StudentsGrade $studentsGrades)
+    public function update(Request $request, UserType $userType)
     {
         //
     }
@@ -75,10 +75,10 @@ class StudentsGradesController extends Controller
     /**
      * Remove the specified resource from storage.
      *
-     * @param  \App\StudentsGrade  $studentsGrades
+     * @param  \App\UserType  $userType
      * @return \Illuminate\Http\Response
      */
-    public function destroy(StudentsGrade $studentsGrades)
+    public function destroy(UserType $userType)
     {
         //
     }

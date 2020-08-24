@@ -2,7 +2,7 @@
 
 namespace App\Http\Controllers;
 
-use App\Questions;
+use App\Question;
 use Illuminate\Http\Request;
 
 class QuestionsController extends Controller
@@ -41,10 +41,10 @@ class QuestionsController extends Controller
     /**
      * Display the specified resource.
      *
-     * @param  \App\Questions  $questions
+     * @param  \App\Question  $questions
      * @return \Illuminate\Http\Response
      */
-    public function show(Questions $questions)
+    public function show(Question $questions)
     {
         //
     }
@@ -52,10 +52,10 @@ class QuestionsController extends Controller
     /**
      * Show the form for editing the specified resource.
      *
-     * @param  \App\Questions  $questions
+     * @param  \App\Question  $questions
      * @return \Illuminate\Http\Response
      */
-    public function edit(Questions $questions)
+    public function edit(Question $questions)
     {
         //
     }
@@ -64,10 +64,10 @@ class QuestionsController extends Controller
      * Update the specified resource in storage.
      *
      * @param  \Illuminate\Http\Request  $request
-     * @param  \App\Questions  $questions
+     * @param  \App\Question  $questions
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, Questions $questions)
+    public function update(Request $request, Question $questions)
     {
         //
     }
@@ -75,10 +75,10 @@ class QuestionsController extends Controller
     /**
      * Remove the specified resource from storage.
      *
-     * @param  \App\Questions  $questions
+     * @param  \App\Question  $questions
      * @return \Illuminate\Http\Response
      */
-    public function destroy(Questions $questions)
+    public function destroy(Question $questions)
     {
         //
     }

@@ -2,7 +2,7 @@
 
 namespace App\Http\Controllers;
 
-use App\QuestionsAnswers;
+use App\QuestionsAnswer;
 use Illuminate\Http\Request;
 
 class QuestionsAnswersController extends Controller
@@ -41,10 +41,10 @@ class QuestionsAnswersController extends Controller
     /**
      * Display the specified resource.
      *
-     * @param  \App\QuestionsAnswers  $questionsAnswers
+     * @param  \App\QuestionsAnswer  $questionsAnswers
      * @return \Illuminate\Http\Response
      */
-    public function show(QuestionsAnswers $questionsAnswers)
+    public function show(QuestionsAnswer $questionsAnswers)
     {
         //
     }
@@ -52,10 +52,10 @@ class QuestionsAnswersController extends Controller
     /**
      * Show the form for editing the specified resource.
      *
-     * @param  \App\QuestionsAnswers  $questionsAnswers
+     * @param  \App\QuestionsAnswer  $questionsAnswers
      * @return \Illuminate\Http\Response
      */
-    public function edit(QuestionsAnswers $questionsAnswers)
+    public function edit(QuestionsAnswer $questionsAnswers)
     {
         //
     }
@@ -64,10 +64,10 @@ class QuestionsAnswersController extends Controller
      * Update the specified resource in storage.
      *
      * @param  \Illuminate\Http\Request  $request
-     * @param  \App\QuestionsAnswers  $questionsAnswers
+     * @param  \App\QuestionsAnswer  $questionsAnswers
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, QuestionsAnswers $questionsAnswers)
+    public function update(Request $request, QuestionsAnswer $questionsAnswers)
     {
         //
     }
@@ -75,10 +75,10 @@ class QuestionsAnswersController extends Controller
     /**
      * Remove the specified resource from storage.
      *
-     * @param  \App\QuestionsAnswers  $questionsAnswers
+     * @param  \App\QuestionsAnswer  $questionsAnswers
      * @return \Illuminate\Http\Response
      */
-    public function destroy(QuestionsAnswers $questionsAnswers)
+    public function destroy(QuestionsAnswer $questionsAnswers)
     {
         //
     }

@@ -2,7 +2,7 @@
 
 namespace App\Http\Controllers;
 
-use App\QuestionsAlternatives;
+use App\QuestionsAlternative;
 use Illuminate\Http\Request;
 
 class QuestionsAlternativesController extends Controller
@@ -41,10 +41,10 @@ class QuestionsAlternativesController extends Controller
     /**
      * Display the specified resource.
      *
-     * @param  \App\QuestionsAlternatives  $questionsAlternatives
+     * @param  \App\QuestionsAlternative  $questionsAlternatives
      * @return \Illuminate\Http\Response
      */
-    public function show(QuestionsAlternatives $questionsAlternatives)
+    public function show(QuestionsAlternative $questionsAlternatives)
     {
         //
     }
@@ -52,10 +52,10 @@ class QuestionsAlternativesController extends Controller
     /**
      * Show the form for editing the specified resource.
      *
-     * @param  \App\QuestionsAlternatives  $questionsAlternatives
+     * @param  \App\QuestionsAlternative  $questionsAlternatives
      * @return \Illuminate\Http\Response
      */
-    public function edit(QuestionsAlternatives $questionsAlternatives)
+    public function edit(QuestionsAlternative $questionsAlternatives)
     {
         //
     }
@@ -64,10 +64,10 @@ class QuestionsAlternativesController extends Controller
      * Update the specified resource in storage.
      *
      * @param  \Illuminate\Http\Request  $request
-     * @param  \App\QuestionsAlternatives  $questionsAlternatives
+     * @param  \App\QuestionsAlternative  $questionsAlternatives
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, QuestionsAlternatives $questionsAlternatives)
+    public function update(Request $request, QuestionsAlternative $questionsAlternatives)
     {
         //
     }
@@ -75,10 +75,10 @@ class QuestionsAlternativesController extends Controller
     /**
      * Remove the specified resource from storage.
      *
-     * @param  \App\QuestionsAlternatives  $questionsAlternatives
+     * @param  \App\QuestionsAlternative  $questionsAlternatives
      * @return \Illuminate\Http\Response
      */
-    public function destroy(QuestionsAlternatives $questionsAlternatives)
+    public function destroy(QuestionsAlternative $questionsAlternatives)
     {
         //
     }
